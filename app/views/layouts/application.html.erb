@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SMGsite</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div id="container">
+   <header>
+     <h1>Save My Glass</h1>
+     <h2>Safer driving, zero effort.</h2>
+   </header>
+   
+   <div id="body">
+     <%= yield %>
+   </div>
+   
+   <footer>
+     Copyright &copy; 2013 Save My Glass, All Rights Reserved.
+   </footer>
+</div>
+
+</body>
+</html>
