@@ -28,6 +28,17 @@ header {
    padding: 20px;
    width: 100%;
 }
+#headerContainer {
+   margin: 0 auto;
+   width: 960px;
+}
+.headerLinks {
+   list-style-type: none;
+}
+.headerLinks li {
+   display: inline;
+   margin-right: 10px;
+}
 #body {
    margin: 20px auto;
    width: 90%;
