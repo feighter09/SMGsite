@@ -1,13 +1,27 @@
-<div id="q1" class="span6 homeRow">
-<%= image_tag("normalView.png", alt: "Normal View") %>
-<p>Save My Glass is a heads-up display (HUD) for driving using Google Glass</p>
+<div class="row">
+  <div id="video" class="center span12">
+    Video
+  </div>
 </div>
 
-<div id="q2" class="span6 homeRow">
-<%= image_tag("alertView.png", alt: "Alert View") %>
-<p>
-What takes it to the next level however, is our focus on <u>safety</u>.<br/>
-By looking at your eyes and sensing the tilt of your head, the app quickly responds to nodding off<br/>
-and alerts the wearer by flashing red and sounding an alarm in the wearer's ear.<br/>
-</p>
+<div class="row homeRow">
+  <div id="q1" class="span6">
+    <%= image_tag("normalView.png", alt: "Normal View") %>
+  </div>
+  <div class="content span6">
+    <p>Save My Glass is a heads-up display (HUD) for driving using Google Glass</p>
+  </div>
+</div>
+
+<div id="q2" class="row homeRow">
+  <div class="content span6">
+    <p>
+    What takes it to the next level however, is our focus on <u>safety</u>.
+    By looking at your eyes and sensing the tilt of your head, the app quickly responds to nodding off
+    and alerts the wearer by flashing red and sounding an alarm in the wearer's ear.
+    </p>
+  </div>
+  <div class="span6">
+    <%= image_tag("alertView.png", alt: "Alert View") %>
+  </div>
 </div>

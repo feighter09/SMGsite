@@ -29,7 +29,8 @@ header {
    width: 100%;
 }
 #body {
-   margin: 20px;
+   margin: 20px auto;
+   width: 90%;
    padding: 10px;
    padding-bottom: 60px;   /* Height of the footer */
    background: white;
@@ -46,5 +47,27 @@ footer {
 }
 
 .homeRow {
-   width: 90%;
+   width: 960px;
+   margin: 20px auto !important;
+}
+
+.homeRow p, img {
+   float: left;
+}
+
+.homeRow p {
+   max-width: 430px;
+   margin-right: 20px;
+   vertical-align: middle;
+}
+.content {
+   float: left;
+}
+.center {
+   margin: 0 auto;
+}
+#video {
+   width: 960px;
+   height: 400px;
+   background: orange;
 }
