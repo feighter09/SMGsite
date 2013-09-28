@@ -18,9 +18,9 @@
         </div>
         <div class="span6">
           <ul class="headerLinks">
-            <li><%= link_to "What it does" %></li>
-            <li><%= link_to "How it Works" %></li>
-            <li><%= link_to "Why we're doing it" %></li>
+            <li><%= link_to "What it does", home_index_path %></li>
+            <li><%= link_to "How it Works", how_index_path %></li>
+            <li><%= link_to "Why we're doing it", why_index_path %></li>
           </ul>
         </div>
       </div>
@@ -31,9 +31,9 @@
     <%= yield %>
   </div>
 
-  <footer>
+  <p id="copy">
     Copyright &copy; 2013 Save My Glass, All Rights Reserved.
-  </footer>
+  </p>
 </div>
 
 </body>
